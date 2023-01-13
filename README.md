@@ -104,3 +104,47 @@ SATIRLARI BULMA MODULÜ
 
         return false;
 	}
+	
+	
+PUANLAMAYA GÖRE EN ÇOK SATANLAR KISMI MODULÜ
+
+
+<div class="page-description"><h1>Çok Satılanlar</h1>
+<div data-block-name="woocommerce/product-top-rated" data-rows="1" class="wc-block-grid wp-block-product-top-rated wc-block-product-top-rated has-3-columns">
+<ul class="wc-block-grid__products">
+<li class="wc-block-grid__product">
+				<a href="https://arabaalsat.shop/index.php/urun/wolkswagen-polo-1-4-2012/" class="wc-block-grid__product-link"><p></p>
+<div class="wc-block-grid__product-image"><img width="324" height="324" src="https://arabaalsat.shop/wp-content/uploads/2022/11/polo-324x324.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="WOLKSWAGEN POLO 1.4 2012" decoding="async" loading="lazy" srcset="https://arabaalsat.shop/wp-content/uploads/2022/11/polo-324x324.png 324w, https://arabaalsat.shop/wp-content/uploads/2022/11/polo-150x150.png 150w, https://arabaalsat.shop/wp-content/uploads/2022/11/polo-100x100.png 100w" sizes="(max-width: 324px) 100vw, 324px"></div>
+<div class="wc-block-grid__product-title">WOLKSWAGEN POLO 1.4 2012</div>
+</a><p><a href="https://arabaalsat.shop/index.php/urun/wolkswagen-polo-1-4-2012/" class="wc-block-grid__product-link">				</a></p>
+<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₺</span>420.000,00</span></div>
+<div class="wc-block-grid__product-rating">
+<div class="star-rating" role="img" aria-label="5 üzerinden 5.00 oy aldı"><span style="width:100%"><span class="rating">1</span> müşteri puanına dayanarak 5 üzerinden <strong class="rating">5.00</strong> puan aldı</span></div>
+</div>
+<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=65" aria-label="“WOLKSWAGEN POLO 1.4 2012” ürününü sepete ekle" data-quantity="1" data-product_id="65" data-product_sku="" rel="nofollow" class="wp-block-button__link wp-element-button add_to_cart_button ajax_add_to_cart">Sepete Ekle</a></div>
+</li>
+<li class="wc-block-grid__product">
+				<a href="https://arabaalsat.shop/index.php/urun/hyundai-i20-2017/" class="wc-block-grid__product-link"><p></p>
+<div class="wc-block-grid__product-image"><img width="324" height="324" src="https://arabaalsat.shop/wp-content/uploads/2022/11/i20-324x324.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="HYUNDAI İ20 2017" decoding="async" loading="lazy" srcset="https://arabaalsat.shop/wp-content/uploads/2022/11/i20-324x324.png 324w, https://arabaalsat.shop/wp-content/uploads/2022/11/i20-150x150.png 150w, https://arabaalsat.shop/wp-content/uploads/2022/11/i20-100x100.png 100w" sizes="(max-width: 324px) 100vw, 324px"></div>
+<div class="wc-block-grid__product-title">HYUNDAI İ20 2017</div>
+</a><p><a href="https://arabaalsat.shop/index.php/urun/hyundai-i20-2017/" class="wc-block-grid__product-link">				</a></p>
+<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₺</span>397.000,00</span></div>
+<div class="wc-block-grid__product-rating">
+<div class="star-rating" role="img" aria-label="5 üzerinden 4.00 oy aldı"><span style="width:80%"><span class="rating">1</span> müşteri puanına dayanarak 5 üzerinden <strong class="rating">4.00</strong> puan aldı</span></div>
+</div>
+<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=52" aria-label="“HYUNDAI İ20 2017” ürününü sepete ekle" data-quantity="1" data-product_id="52" data-product_sku="" rel="nofollow" class="wp-block-button__link wp-element-button add_to_cart_button ajax_add_to_cart">Sepete Ekle</a></div>
+</li>
+<li class="wc-block-grid__product">
+				<a href="https://arabaalsat.shop/index.php/urun/fiat-linea-2007-1-4-multijet/" class="wc-block-grid__product-link"><p></p>
+<div class="wc-block-grid__product-image"><img width="324" height="315" src="https://arabaalsat.shop/wp-content/uploads/2022/11/Fiat_Linea_Emotion_Fire_1.4_Petrol-324x315.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="FIAT LINEA 2007 1.4 MULTIJET" decoding="async" loading="lazy"></div>
+<div class="wc-block-grid__product-title">FIAT LINEA 2007 1.4 MULTIJET</div>
+</a><p><a href="https://arabaalsat.shop/index.php/urun/fiat-linea-2007-1-4-multijet/" class="wc-block-grid__product-link">				</a></p>
+<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">₺</span>233.500,00</span></div>
+<div class="wc-block-grid__product-rating">
+<div class="star-rating" role="img" aria-label="5 üzerinden 4.00 oy aldı"><span style="width:80%"><span class="rating">1</span> müşteri puanına dayanarak 5 üzerinden <strong class="rating">4.00</strong> puan aldı</span></div>
+</div>
+<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=11" aria-label="“FIAT LINEA 2007 1.4 MULTIJET” ürününü sepete ekle" data-quantity="1" data-product_id="11" data-product_sku="" rel="nofollow" class="wp-block-button__link wp-element-button add_to_cart_button ajax_add_to_cart">Sepete Ekle</a></div>
+</li>
+</ul>
+</div>
+</div>
