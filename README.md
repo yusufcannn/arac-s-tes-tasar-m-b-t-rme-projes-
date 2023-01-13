@@ -1,4 +1,7 @@
-VERİTABANI BAĞLANTISI İÇİN KODLAR
+Selamlar. PHP-HTML-CSS ile tasarladığım sitemde site ana hatlarına ait bazı modülleri ve kodları aşşağıda paylaşıyorum.
+
+
+VERİTABANI BAĞLANTISI MODULÜ
 
 
 define( 'DB_NAME', 's1_arabaalsat_shop' );
@@ -19,7 +22,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 
 
-HTTP BAĞLANTISINI GÜVENLİ HALE GETİRME KODU
+HTTP BAĞLANTISINI GÜVENLİ HALE GETİRME MODULÜ
 
 if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
                 safe_redirect( set_url_scheme( $_SERVER['REQUEST_URI'], 'https' ) );
@@ -32,7 +35,7 @@ if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
        
        
        
-VERİTABANINDA EKSİK TABLOLARI OLUŞTURMA KODU
+VERİTABANINDA EKSİK TABLOLARI OLUŞTURMA MODULÜ
 
 if ( ! function_exists( 'maybe_create_table' ) ) :
         /**
@@ -62,7 +65,7 @@ endif;
 
 
 
-SATIRLARI BULMA KODU
+SATIRLARI BULMA MODULÜ
 
 function check_column( $table_name, $col_name, $col_type, $is_null = null, $key = null, $default_value = null, $extra = null ) {
         global $wpdb;
