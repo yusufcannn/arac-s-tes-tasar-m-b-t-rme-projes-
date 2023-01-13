@@ -4,19 +4,19 @@ Selamlar. PHP-HTML-CSS ile tasarladığım sitemde site ana hatlarına ait bazı
 VERİTABANI BAĞLANTISI MODULÜ
 
 
-define( 'DB_NAME', 's1_arabaalsat_shop' );
+	define( 'DB_NAME', 's1_arabaalsat_shop' );
 
-/** Database username */
-define( 'DB_USER', 's1_arabaalsat_shop' );
+	/** Database username */
+	define( 'DB_USER', 's1_arabaalsat_shop' );
 
-/** Database password */
-define( 'DB_PASSWORD', 'EreSR9BkYWtpmt8RcWZP3NOyKqvBDgwcO0AV0v0o5LOLJMrsvBbSQommil250i' );
+	/** Database password */
+	define( 'DB_PASSWORD', 'EreSR9BkYWtpmt8RcWZP3NOyKqvBDgwcO0AV0v0o5LOLJMrsvBbSQommil250i' );
 
-/** Database hostname */
-define( 'DB_HOST', 'localhost' );
+	/** Database hostname */
+	define( 'DB_HOST', 'localhost' );
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+	/** Database charset to use in creating database tables. */
+	define( 'DB_CHARSET', 'utf8mb4' );
 
 
 
@@ -24,7 +24,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 HTTP BAĞLANTISINI GÜVENLİ HALE GETİRME MODULÜ
 
-if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
+	if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
                 safe_redirect( set_url_scheme( $_SERVER['REQUEST_URI'], 'https' ) );
                 exit;
         } else {
@@ -37,7 +37,7 @@ if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
        
 VERİTABANINDA EKSİK TABLOLARI OLUŞTURMA MODULÜ
 
-if ( ! function_exists( 'maybe_create_table' ) ) :
+		if ( ! function_exists( 'maybe_create_table' ) ) :
         /**
 		* Olmayan tabloları oluşturmak için
          */
@@ -60,14 +60,14 @@ if ( ! function_exists( 'maybe_create_table' ) ) :
 
                 return false;
         }
-endif;
+		endif;
 
 
 
 
 SATIRLARI BULMA MODULÜ
 
-function check_column( $table_name, $col_name, $col_type, $is_null = null, $key = null, $default_value = null, $extra = null ) {
+	function check_column( $table_name, $col_name, $col_type, $is_null = null, $key = null, $default_value = null, $extra = null ) {
         global $wpdb;
 
         $diffs   = 0;
@@ -103,4 +103,4 @@ function check_column( $table_name, $col_name, $col_type, $is_null = null, $key 
         }
 
         return false;
-}
+	}
