@@ -15,6 +15,10 @@ define( 'DB_HOST', 'localhost' );
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
+
+
+
+
 HTTP BAĞLANTISINI GÜVENLİ HALE GETİRME KODU
 
 if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
@@ -24,6 +28,9 @@ if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
                 safe_redirect( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
                 exit;
         }
+       
+       
+       
        
 VERİTABANINDA EKSİK TABLOLARI OLUŞTURMA KODU
 
@@ -51,6 +58,9 @@ if ( ! function_exists( 'maybe_create_table' ) ) :
                 return false;
         }
 endif;
+
+
+
 
 SATIRLARI BULMA KODU
 
