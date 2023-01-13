@@ -109,11 +109,11 @@ SATIRLARI BULMA MODULÜ
 PUANLAMAYA GÖRE EN ÇOK SATANLAR KISMI MODULÜ
 
 
-	<div class="page-description"><h1>Çok Satılanlar</h1>
-	<div data-block-name="woocommerce/product-top-rated" data-rows="1" class="wc-block-grid wp-block-product-top-rated wc-block-product-top-rated has-3-columns">
+	<div class="page-description"><h1>Çok Satılanlar</h1> <!-->h1 ile çok satılanlar başlığı oluşturdum.</!-->
+	<div data-block-name="woocommerce/product-top-rated" data-rows="1" class="wc-block-grid wp-block-product-top-rated wc-block-product-top-rated has-3-columns"><!-->bir class tanımladım.</!-->
 	<ul class="wc-block-grid__products">
 	<li class="wc-block-grid__product">
-					<a href="https://arabaalsat.shop/index.php/urun/wolkswagen-polo-1-4-2012/" class="wc-block-grid__product-link"><p></p>
+					<a href="https://arabaalsat.shop/index.php/urun/wolkswagen-polo-1-4-2012/" class="wc-block-grid__product-link"><p></p> <!-->href ile link verdim</!-->
 	<div class="wc-block-grid__product-image"><img width="324" height="324" src="https://arabaalsat.shop/wp-content/uploads/2022/11/polo-324x324.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="WOLKSWAGEN POLO 1.4 2012" decoding="async" loading="lazy" srcset="https://arabaalsat.shop/wp-content/uploads/2022/11/polo-324x324.png 324w, https://arabaalsat.shop/wp-content/uploads/2022/11/polo-150x150.png 150w, https://arabaalsat.shop/wp-content/uploads/2022/11/polo-100x100.png 100w" sizes="(max-width: 324px) 100vw, 324px"></div>
 	<div class="wc-block-grid__product-title">WOLKSWAGEN POLO 1.4 2012</div>
 	</a><p><a href="https://arabaalsat.shop/index.php/urun/wolkswagen-polo-1-4-2012/" class="wc-block-grid__product-link">				</a></p>
